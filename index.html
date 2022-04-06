@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8' name='viewport' content="width=device-width,initial-scale=1">
+    <title>ToDoList</title>
+    <script src="time.js"></script>
+    <link rel="stylesheet" type="text/css" href="text.css">
+    <link rel="stylesheet" type="text/css" href="flex.css"> 
+    <link rel="stylesheet" type="text/css" href="checkbtn.css"> 
+</head>
+
+<body bgcolor="black">
+    <div  class = 'list'>
+        <img class = 'imgcontent1' src="list2.png" alt="list">
+    </div>
+    <div class = 'black1'>
+
+    </div>
+    <div class = 'black2'>
+        
+    </div>
+    <div class = 'date'>
+        <div class = 'yesterday' >
+            <div class = 'round' id = 'past_date'>
+                <script>
+                    date = new Date();
+                    year = date.getFullYear();
+                    month = date.getMonth() + 1;
+                    day = date.getDate();
+                    document.getElementById("past_date").innerHTML = day-1;
+                </script>
+            </div>
+        </div>
+        <div class = 'today' >
+            <div class = 'round' id = 'current_date'>
+                <script>
+                    date = new Date();
+                    year = date.getFullYear();
+                    month = date.getMonth() + 1;
+                    day = date.getDate();
+                    document.getElementById("current_date").innerHTML = day;
+                </script>
+            </div>
+        </div>
+        <div class = 'tomorrow' >
+            <div class = 'round' id = 'future_date'>
+                <script>
+                    date = new Date();
+                    year = date.getFullYear();
+                    month = date.getMonth() + 1;
+                    day = date.getDate();
+                    document.getElementById("future_date").innerHTML = day+1;
+                </script>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class = 'ylist'>
+            <div class = 'box1'>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_1 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_2 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_3 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_4 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_5 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_6 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_7 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_8 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_9 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_10 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_11 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+            </div>
+        </div>
+        <div class = 'tlist'>
+            <div class = 'whitebox'>
+                <div id = 'btn_group' class = 'white2box'>
+                    <button type = 'button1' class = 'button1'>!</button>
+                    <button type = 'button2' class = 'button2'>X</button>
+                </div>
+                <div class = 'inin'>
+                    <input type = 'text' >
+                </div>
+            </div>
+
+            <div class = 'box2'>
+                <div class = 'lllist'>
+                    <div class = 'white3box'>
+                        <button type = 'button0' class = 'btn_1 button0'>
+                            <img class = 'imgcontent' src = '체크표시.png' />
+                        </button>
+                    </div>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_2 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_3 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_4 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_5 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_6 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_7 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_8 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_9 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_10 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+            </div>
+        </div>
+        <div class = 'ttlist'>
+            <div class = 'box1'>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_1 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_2 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_3 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_4 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_5 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_6 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_7 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_8 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_9 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_10 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+                <div class = 'lllist'>
+                    <button type = 'button0' class = 'btn_11 button0'>
+                        <img class = 'imgcontent' src = '체크표시.png' /></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

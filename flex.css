@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('DungGeunMo.woff');
+}
+
+.whitebox {
+    display: flex;
+    flex-direction: row;
+    width: 537px;
+    height: 68px;
+    background-color: rgb(255, 255, 255);
+    margin: 15px 52px 29px 51px;
+}
+
+
+
+.white2box {
+    order : 2;
+    width: 122px;
+    height: 68px;
+    background-color: rgb(255, 255, 255);
+    /* margin: 0px 0px 0px auto;*/
+    display: flex;
+    opacity : 0;
+    
+}
+
+.whitebox:hover .white2box{
+    opacity: 1;
+    transition: 1s;
+    
+}
+
+.inin {
+    order : 1;
+    width: 415px;
+    height: 68px;
+    /* margin: 0px 122px 0px 0px;
+    padding : 0px; */
+    
+}
+
+input {
+    position: relative;
+    width: 415px;
+    height: 68px;
+    font-size: 50px;
+    border: 0;
+    /*border-radius: 15px; */
+    outline: none;
+    /*padding-left: 10px; */
+    background-color: rgb(255, 255, 255);
+    padding : 0px;
+  }
+
+
+#btn_group .button1 {
+    background-color: #707070; 
+    color: white; 
+    border : 0;
+  }
+
+#btn_group .button1:hover {
+    background-color: blue;
+    cursor: url(baby_pink_two.png), url(baby_pink_1.svg), auto;
+    transition: 0.5s;
+}
+
+#btn_group .button2 {
+    background-color: #707070; 
+    color: white; 
+    border : 0;
+  }
+
+#btn_group .button2:hover {
+    background-color: red;
+    cursor: url(baby_pink_two.png), url(baby_pink_1.svg), auto;
+    transition: 0.5s;
+}
+
+
+.button1 {
+    width: 51px;
+    height: 54px;
+    position : relative;
+    margin : 7px 7px 7px 7px;
+    font-size: 76px;
+    font-family: 'DungGeunMo';
+    line-height : 48px;
+}
+
+.button2 {
+    width: 51px;
+    height: 54px;
+    position : relative;
+    margin : 7px 7px 7px 0px;
+    font-size: 76px;
+    font-family: 'DungGeunMo';
+    line-height : 48px;
+}

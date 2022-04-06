@@ -1,0 +1,50 @@
+.box1 {
+    width : 537px;
+    height : 714px;
+    background-color: white;
+    margin: 15px 52px 31px 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box2 {
+    width : 537px;
+    height : 617px;
+    background-color: white;
+    margin: 0px 52px 31px 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button0 {
+    width : 51px;
+    height : 54px;
+    background-color : white;
+    display: block;
+    margin-left: 7px;
+    padding : 0px 0px 0px 0px;
+    border-color: black;
+}
+
+.imgcontent {
+    opacity : 0;
+
+}
+
+.button0:hover .imgcontent {
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.lllist {
+    display: flex;
+}
+
+
+
+/* .lllist.white0box:hover .white2box {
+    opacity: 1;
+    transition: 1s;
+} */
